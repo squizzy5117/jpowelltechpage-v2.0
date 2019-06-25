@@ -38,12 +38,15 @@ img {
 
 
 span {
-    color: #F87060;
+    color: (#F87060);
 }
 h1{
     font-family: 'Syncopate', sans-serif;
     font-style: normal;
     font-weight: 700;
+}
+.prac{
+    color: rgb(184, 250, 32);
 }
 
 h2,
@@ -153,7 +156,32 @@ p {
 .logo {
     height:auto;
 }
-
+/*WORK PAGE*/
+#portfolio .wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(17, 1fr);
+  
+}
+#one{
+    grid-column: 1 / 8;
+    grid-row: 1/2;
+}
+#two{
+    grid-column: 1 / 2;
+}
+#three {
+    grid-column: 2 / 4;
+}
+#four {
+    grid-column: 4 / 5;
+}
+#five {
+    grid-column: 5 / 7;
+}
+#six {
+    grid-column: 7 / 8;
+}
 /*Footor */
 #main-footor {
     padding: 2em;
